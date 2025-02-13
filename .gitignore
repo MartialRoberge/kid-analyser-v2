@@ -1,0 +1,30 @@
+# Ignore everything in these directories
+MinerU/
+.venv/
+
+# Ignore large model files
+LLM/mistral-7b-instruct-v0.2.Q8_0.gguf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local development settings
+.env
+*.log
